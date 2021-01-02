@@ -38,7 +38,9 @@ function withDatum(word) {
 
 
 let partAutos = ["direks0928234iyon", "tekerlek", "bala444433ta", "dikizaynasi"];
-
+for (let index = 0; index < partAutos.length; index++) {
+    console.log("first version of part name in list: " + partAutos[index] + "\n");
+}
 for (let index = 0; index < partAutos.length; index++) {
     let temp = partAutos[index];
     temp = bigName(partAutos[index]);
@@ -49,7 +51,7 @@ for (let index = 0; index < partAutos.length; index++) {
     partAutos[index] = temp;
 }
 for (let index = 0; index < partAutos.length; index++) {
-    console.log("the parts are here =) in turkisch: " + partAutos[index] + "\n");
+    console.log("after process in names: " + partAutos[index] + "\n");
 }
 
 let itemName = prompt("Please enter name of the İtem: ");
